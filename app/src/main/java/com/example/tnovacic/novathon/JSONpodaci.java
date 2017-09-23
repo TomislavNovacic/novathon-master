@@ -25,6 +25,7 @@ public class JSONpodaci {
 
     String[][] elementi = {{"VODA","PICE"},
             {"CIPS","HRANA"},
+            {"SOK","PICE"},
             {"BOMONI","HRANA"},
             {"NESKAFE","HRANA"},
             {"SLADOLED","HRANA"},
