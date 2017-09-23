@@ -12,8 +12,8 @@ public class JSONpodaci {
     public String pakiranje(String user, String password){
         JSONObject O = new JSONObject();
         try {
-            O.put("user", user);
-            O.put("password", password);
+            O.put("user:", user);
+            O.put("password:", password);
         } catch (JSONException e) {
             return "";
         }
