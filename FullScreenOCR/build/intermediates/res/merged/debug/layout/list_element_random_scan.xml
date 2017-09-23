@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="@dimen/margin_random_scan_list_element"
+    android:minHeight="40dp"
+    android:background="@drawable/bg_random_scan_element">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/transparent"
+        tools:ignore="UselessParent">
+
+        <com.microblink.view.layout.KeyValueLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/clear_element_button"
+            android:background="@color/transparent"
+            tools:ignore="RtlHardcoded">
+
+            <TextView
+                android:id="@+id/tvLabel"
+                android:textColor="@color/text_color_dark_gray"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_random_scan_element"
+                android:background="@color/transparent"
+                tools:text="Text Label"
+                tools:ignore="SelectableText"/>
+
+            <TextView
+                android:id="@+id/tvValue"
+                android:textColor="@color/text_black_blink_ocr"
+                android:paddingLeft="15dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_random_scan_element"
+                android:background="@color/transparent"
+                tools:text="Right result field"
+                tools:ignore="RtlSymmetry,SelectableText"/>
+
+        </com.microblink.view.layout.KeyValueLayout>
+
+        <ImageButton
+            android:id="@+id/clear_element_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/btn_random_scan_clear"
+            android:background="#00000000"
+            android:layout_alignParentRight="true"
+            tools:ignore="ContentDescription,RtlHardcoded"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

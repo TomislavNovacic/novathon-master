@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <stroke
+        android:width="2dp"
+        android:color="@color/mbButtonBorder"/>
+    <solid android:color="@color/mbButtonBackgroundNormal"/>
+    <corners android:radius="@dimen/radius_bg_random_scan_element"/>
+</shape>
+

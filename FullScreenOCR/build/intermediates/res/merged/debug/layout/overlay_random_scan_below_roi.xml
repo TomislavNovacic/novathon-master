@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_random_scan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:layout_above="@+id/bottom_bar"
+        android:background="@color/transparent">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="@color/transparent"/>
+
+        <ScrollView
+            android:layout_marginTop="@dimen/margin_random_scan_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:scrollbarStyle="outsideInset"
+            android:background="@color/transparent">
+
+            <LinearLayout
+                android:id="@+id/scan_elements_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/transparent">
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="@color/transparent"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent">
+
+        <RelativeLayout
+            android:id="@+id/bottom_bar_continue"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_bar_height"
+            android:visibility="gone"
+            tools:visibility="gone"
+            android:background="@color/transparent">
+
+            <Button
+                android:id="@+id/continue_button"
+                style="@style/BottomBarButton.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/mbContinue"/>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bottom_bar_overwrite_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:orientation="vertical"
+            android:background="@color/transparent">
+
+            <!--suppress SelectableText -->
+            <TextView
+                android:id="@+id/tv_bottom_bar_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="220dp"
+                android:paddingTop="@dimen/margin_random_scan_list"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/margin_scan_message_horizontal"
+                android:layout_marginRight="@dimen/margin_scan_message_horizontal"
+                android:layout_marginBottom="@dimen/margin_scan_message_vertical"
+                android:textSize="@dimen/text_size_random_scan_message"
+                android:background="@color/transparent"
+                style="@style/RandomScanText"
+                tools:text="Are you sure that you wish to scan IBAN again?" />
+
+            <RelativeLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bottom_bar_height"
+                android:background="@color/transparent">
+
+                <Button
+                    android:id="@+id/left_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/BottomBarButton"
+                    android:layout_marginRight="@dimen/margin_button_bottom_bar"
+                    android:text="@string/PPCancel"
+                    tools:ignore="RtlHardcoded"/>
+
+                <Button
+                    android:id="@+id/right_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/BottomBarButton"
+                    android:layout_toRightOf="@id/left_button"
+                    android:text="@string/mbConfirm"
+                    tools:ignore="RtlHardcoded"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

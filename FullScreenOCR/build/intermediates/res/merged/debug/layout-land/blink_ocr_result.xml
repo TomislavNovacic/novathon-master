@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layResult"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/result_background_blink_ocr"
+    android:paddingBottom="@dimen/activity_vertical_margin_blink_ocr"
+    android:paddingLeft="@dimen/activity_horizontal_margin_blink_ocr"
+    android:paddingRight="@dimen/activity_horizontal_margin_blink_ocr"
+    android:paddingTop="@dimen/activity_vertical_margin_blink_ocr"
+    android:visibility="invisible"
+    tools:visibility="visible">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/btnAccept"
+        android:layout_above="@+id/bottomBoundary"
+        android:background="@color/transparent"
+        tools:ignore="RtlHardcoded">
+        <com.microblink.ocr.FontFitTextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@color/text_white_blink_ocr"
+            android:inputType="textMultiLine"
+            android:text="123,54"
+            android:textColor="@color/text_white_blink_ocr"
+            android:textSize="@dimen/text_size_blink_ocr"
+            tools:ignore="HardcodedText, UnusedAttribute"/>
+    </android.support.v4.widget.NestedScrollView>
+    <ImageButton
+        android:id="@+id/btnAccept"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:background="@android:color/transparent"
+        android:onClick="onBtnAcceptClicked"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ok_big_blink_ocr"
+        tools:ignore="ContentDescription, RtlHardcoded"/>
+    <View
+        android:id="@+id/bottomBoundary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

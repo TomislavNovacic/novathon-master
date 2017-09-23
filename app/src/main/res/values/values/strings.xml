@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FullScreenOCR</string>
+    <string name="btn_startScanning">Start scanning</string>
+</resources>

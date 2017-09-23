@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string name="Align">Postavite kameru iznad uplatnice ili barkoda</string>
+    <string name="AlignBarcode" ns1:ignore="UnusedResources">Namjestite telefon iznad 2D barkoda</string>
+    <string name="AlignOcrLine">Namjestite telefon iznad OCR linije</string>
+    <string name="AutofocusFail">Kamera ne može fokusirati. Skenirajte pod drugačijim svjetlom.</string>
+    <string name="CameraAtAngle">Namjestite OCR liniju u polje ispod. Kut OCR linije je prevelik.</string>
+    <string name="CameraTooHigh">Približite telefon uplatnici</string>
+    <string name="CameraTooNear">Udaljite uređaj od uplatnice ili barkoda</string>
+    <string name="Copied">Tekst je kopiran u sustavski međuspremnik</string>
+    <string name="Copy">Kopiraj</string>
+    <string name="CustomUIForbidden">Licenca ne dozvoljava izradu vlastitog sučelja iznad kamera ekrana.</string>
+    <string name="FeatureUnsuportedAndroidVersion">Ova opcija nije dostupna za starije verzije Android uređaja</string>
+    <string name="FeatureUnsuportedAutofocus">Ova opcija nije dostupna za uređaje bez mogućnosti autofocusa</string>
+    <string name="FeatureUnsuportedDevice">Tehničke karakteristike vašeg uređaja ne omogućavaju korištenje ove opcije</string>
+    <string name="FullRecognition">Uplatnica prepoznata</string>
+    <string name="InvalidLicense">Pogrešan licencni ključ. Molim provjerite ADB error log za detalje.</string>
+    <string name="NoRecognition">Uplatnica nije prepoznata</string>
+    <string name="NoRecognizers">Barem jedan prepoznavatelj mora biti uključen</string>
+    <string name="PPCancel">Odustani</string>
+    <string name="PPUse">Koristi</string>
+    <string name="PartialDetected">Neki dijelovi uplatnice nisu vidljivi</string>
+    <string name="PartialRecognition">Uplatnica djelomično prepoznata</string>
+    <string name="Processing">Molim, držite telefon mirno, slika se obrađuje</string>
+    <string name="ResultList">Popis rezultata skeniranja</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Idi na početnu"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Idi gore"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Dodatne opcije"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gotovo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Prikaži sve"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Odabir aplikacije"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ISKLJUČENO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"UKLJUČENO"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pretražite…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Izbriši upit"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Upit za pretraživanje"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pretraživanje"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Pošalji upit"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Glasovno pretraživanje"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Dijeljenje sa"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Dijeljenje sa: %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Sažmi"</string>
+    <string name="loading">Učitavanje…</string>
+    <string name="mbAlertTitle">Upozorenje</string>
+    <string name="mbCameraNotAllowed">Korištenje kamere je zabranjeno sigunosnim postavkama.</string>
+    <string name="mbCameraNotReady">Kamera nije spremna.</string>
+    <string name="mbCameraPermissionRequired">Potrebna je dozvola za pristup kameri.</string>
+    <string name="mbConfirm" ns1:ignore="ExtraTranslation">Potvrdi</string>
+    <string name="mbContinue" ns1:ignore="ExtraTranslation">Nastavi</string>
+    <string name="mbEnableCamera">Dozvoli pristup kameri</string>
+    <string name="mbEnablePermissionHelp">Bit ćete odvedeni na sustavske postavke gdje morate aplikaciji dozvoliti pristup kameri.</string>
+    <string name="mbErrorInitializing">Greška kod inicijalizacije native komponente. Provjerite ADB error log za detalje.</string>
+    <string name="mbHelp">Upute</string>
+    <string name="mbHome">Početna</string>
+    <string name="mbLightOff">Svjetlo</string>
+    <string name="mbLightOn">Svjetlo</string>
+    <string name="mbOK">U redu</string>
+    <string name="mbOcrLineHelpMessage" ns1:ignore="ExtraTranslation">Postavite cijelo bijelo područje u prozor iznad</string>
+    <string name="mbScanAgain">Skeniraj ponovno</string>
+    <string name="mbSkip" ns1:ignore="ExtraTranslation">Preskoči</string>
+    <string name="mbWarningTitle">Upozorenje</string>
+    <string name="random_scan_message_default" ns1:ignore="ExtraTranslation">Postavite element kojeg skenirate u ovaj prostor</string>
+    <string name="random_scan_overwrite_confirm_message" ns1:ignore="ExtraTranslation">Jeste li sigurni da želite ponovno skenirati %s?</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Pretraživanje"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

@@ -1,0 +1,163 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:3:11-41
+		INJECTED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:5:5-25:19
+MERGED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:37:5-48:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\tnovacic\.android\build-cache\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\tnovacic\.android\build-cache\c67063eef07fadf58ed61f19ab38c07e6379e89f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\tnovacic\.android\build-cache\071bb444c1f22043de4b973fcd4b504003ec3cda\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\tnovacic\.android\build-cache\3e7ba9a2ebcc4668a795d49af7f9bc7a21d9df92\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\tnovacic\.android\build-cache\541761c5d578a60ebf9632f51b31173b832915df\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\tnovacic\.android\build-cache\88007f257d75d2093c4e0c506fe33abf2dd7b870\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\tnovacic\.android\build-cache\a4b918fd5297c692fc1ddf4b7d7c2cf6680a2f18\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\tnovacic\.android\build-cache\249885538ca2c3dc15241c096dfee88fbd70f2d4\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\tnovacic\.android\build-cache\f653f7bb331c08cb182042661d817c826a3b3162\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:9:9-54
+	tools:ignore
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:39:9-39
+	android:allowBackup
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:7:9-43
+	android:largeHeap
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:38:9-33
+	android:theme
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:11:9-40
+activity#com.microblink.input.MainActivity
+ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:12:9-19:20
+	android:screenOrientation
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:13:19-55
+	android:name
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:15:17-68
+	android:name
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:17:17-76
+	android:name
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:17:27-74
+activity#com.microblink.input.FullScreenOCR
+ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:21:9-24:69
+	android:screenOrientation
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:23:13-49
+	android:theme
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:24:13-67
+	android:name
+		ADDED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml:22:13-42
+uses-sdk
+INJECTED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\tnovacic\.android\build-cache\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\tnovacic\.android\build-cache\c67063eef07fadf58ed61f19ab38c07e6379e89f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\tnovacic\.android\build-cache\071bb444c1f22043de4b973fcd4b504003ec3cda\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\tnovacic\.android\build-cache\3e7ba9a2ebcc4668a795d49af7f9bc7a21d9df92\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\tnovacic\.android\build-cache\541761c5d578a60ebf9632f51b31173b832915df\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\tnovacic\.android\build-cache\88007f257d75d2093c4e0c506fe33abf2dd7b870\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\tnovacic\.android\build-cache\a4b918fd5297c692fc1ddf4b7d7c2cf6680a2f18\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\tnovacic\.android\build-cache\249885538ca2c3dc15241c096dfee88fbd70f2d4\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\tnovacic\.android\build-cache\f653f7bb331c08cb182042661d817c826a3b3162\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\tnovacic\.android\build-cache\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tnovacic\Downloads\BlinkInputDemo\BlinkInputDemo\FullScreenOCR\src\main\AndroidManifest.xml
+supports-screens
+ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:12:5-18:40
+	android:largeScreens
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:14:9-36
+	android:smallScreens
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:17:9-36
+	android:normalScreens
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:15:9-37
+	android:xlargeScreens
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:18:9-37
+	android:resizeable
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:16:9-34
+	android:anyDensity
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:13:9-34
+uses-permission#android.permission.CAMERA
+ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:20:5-65
+	android:name
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:20:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:21:5-69
+	android:name
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:21:22-66
+uses-feature#android.hardware.camera
+ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:24:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:27:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:29:5-31:36
+	android:required
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:31:9-33
+	android:name
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:30:9-53
+uses-feature#0x00020000
+ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:32:5-35:20
+	android:glEsVersion
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:33:9-41
+	android:required
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:34:9-33
+activity#com.microblink.activity.SegmentScanActivity
+ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:40:9-43:52
+	android:screenOrientation
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:43:13-49
+	android:configChanges
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:42:13-59
+	android:name
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:41:13-71
+activity#com.microblink.activity.RandomScanActivity
+ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:44:9-47:52
+	android:screenOrientation
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:47:13-49
+	android:configChanges
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:46:13-59
+	android:name
+		ADDED from [com.microblink:blinkinput:3.4.0] C:\Users\tnovacic\.android\build-cache\dbb97393afe20e021e547bf19f5b40f036ada931\output\AndroidManifest.xml:45:13-70
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\tnovacic\.android\build-cache\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\tnovacic\.android\build-cache\c67063eef07fadf58ed61f19ab38c07e6379e89f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\tnovacic\.android\build-cache\071bb444c1f22043de4b973fcd4b504003ec3cda\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\tnovacic\.android\build-cache\3e7ba9a2ebcc4668a795d49af7f9bc7a21d9df92\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\tnovacic\.android\build-cache\541761c5d578a60ebf9632f51b31173b832915df\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\tnovacic\.android\build-cache\88007f257d75d2093c4e0c506fe33abf2dd7b870\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\tnovacic\.android\build-cache\a4b918fd5297c692fc1ddf4b7d7c2cf6680a2f18\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\tnovacic\.android\build-cache\249885538ca2c3dc15241c096dfee88fbd70f2d4\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\tnovacic\.android\build-cache\f653f7bb331c08cb182042661d817c826a3b3162\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\tnovacic\.android\build-cache\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\tnovacic\.android\build-cache\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\output\AndroidManifest.xml:26:9-47

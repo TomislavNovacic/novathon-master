@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout-land\\blink_ocr_result.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout-land\\blink_ocr_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout-land\\overlay_random_scan.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout-land\\overlay_random_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout-land\\overlay_blink_ocr.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout-land\\overlay_blink_ocr.xml"
+    }
+]

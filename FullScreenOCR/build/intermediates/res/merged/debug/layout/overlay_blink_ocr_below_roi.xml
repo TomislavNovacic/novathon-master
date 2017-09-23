@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/result_vertical_margin_blink_ocr"
+    android:paddingLeft="@dimen/result_horizontal_margin_blink_ocr"
+    android:paddingRight="@dimen/result_horizontal_margin_blink_ocr"
+    android:paddingTop="@dimen/result_vertical_margin_blink_ocr"
+    android:background="@color/transparent">
+
+    <include layout="@layout/blink_ocr_result"/>
+
+    <RelativeLayout
+        android:id="@+id/laySkip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin_blink_ocr"
+        android:visibility="gone"
+        android:background="@color/transparent">
+        <TextView
+            android:id="@+id/label_btn_skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnSkip"
+            android:gravity="center"
+            android:text="@string/mbSkip"
+            android:textSize="20sp"
+            tools:ignore="UnusedIds"
+            android:background="@color/transparent"/>
+        <ImageButton
+            android:id="@+id/btnSkip"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:onClick="onBtnSkipClicked"
+            android:scaleType="fitCenter"
+            android:src="@drawable/skip_blink_ocr"
+            tools:ignore="ContentDescription"/>
+    </RelativeLayout>
+
+</FrameLayout>

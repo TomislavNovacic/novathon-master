@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microblink.input.ResizableOverlayView
+    android:id="@+id/camera_frame_overlay"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:windowEdgeMargin="1dp"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    app:windowMaxHeightPercentage="100"
+    app:windowMinHeight="57dp"
+    app:windowMinWidth="57dp">
+
+    <View
+        android:id="@+id/preview_overlay_upper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/preview_overlay_color"
+        />
+
+    <LinearLayout
+        android:id="@+id/preview_overlay_mid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/preview_overlay_color"/>
+
+        <FrameLayout
+            android:id="@+id/preview_overlay_window"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            tools:ignore="RtlHardcoded,ContentDescription"
+            android:padding="1dp">
+
+            <ImageView
+                android:id="@+id/preview_corner_top_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:src="@drawable/ic_resize_red_up_left"/>
+
+            <ImageView
+                android:id="@+id/preview_corner_top_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:src="@drawable/ic_resize_red_up_right"/>
+
+            <ImageView
+                android:id="@+id/preview_corner_bottom_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:src="@drawable/ic_resize_red_down_left"/>
+
+            <ImageView
+                android:id="@+id/preview_corner_bottom_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:src="@drawable/ic_resize_red_down_right"/>
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/preview_overlay_color"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/preview_overlay_lower"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/preview_overlay_color"/>
+</com.microblink.input.ResizableOverlayView>

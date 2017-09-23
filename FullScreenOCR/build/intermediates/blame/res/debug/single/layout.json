@@ -1,0 +1,226 @@
+[
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\overlay_blink_ocr.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout\\overlay_blink_ocr.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\activity_random_scan.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout\\activity_random_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\page_element_blink_ocr.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout\\page_element_blink_ocr.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\overlay_random_scan.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout\\overlay_random_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\roi_overlay.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout\\roi_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\camera_splash.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout\\camera_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\overlay_blink_ocr_below_roi.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout\\overlay_blink_ocr_below_roi.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\viewfinder_blink_ocr.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout\\viewfinder_blink_ocr.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\list_element_random_scan.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout\\list_element_random_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\default_barcode_camera_overlay.xml",
+        "source": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\src\\main\\res\\layout\\default_barcode_camera_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\blink_ocr_result.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout\\blink_ocr_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\activity_blink_ocr.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout\\activity_blink_ocr.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\resizable_camera_overlay.xml",
+        "source": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\src\\main\\res\\layout\\resizable_camera_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\activity_full_screen_ocr.xml",
+        "source": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\src\\main\\res\\layout\\activity_full_screen_ocr.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\overlay_random_scan_below_roi.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout\\overlay_random_scan_below_roi.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\camera_permission_overlay.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\dbb97393afe20e021e547bf19f5b40f036ada931\\output\\res\\layout\\camera_permission_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\tnovacic\\Downloads\\BlinkInputDemo\\BlinkInputDemo\\FullScreenOCR\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\tnovacic\\.android\\build-cache\\2ee28e38085550cf5cdab2bcb4c7f1a8398278a9\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    }
+]

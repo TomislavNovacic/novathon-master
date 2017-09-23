@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             xmlns:custom="http://schemas.android.com/apk/res-auto"
+             android:id="@+id/random_scan_root"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.microblink.activity.RandomScanActivity"
+             tools:ignore="MergeRootFrame"
+             android:keepScreenOn="true">
+
+    <com.microblink.view.recognition.RecognizerView
+        android:id="@+id/recognizer_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:mb_animateRotation="true"
+        custom:mb_animationDuration="250" />
+
+    <com.microblink.ocr.RoiOverlayView
+        android:id="@+id/roi_overlay_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+    </com.microblink.ocr.RoiOverlayView>
+
+    <FrameLayout
+        android:id="@+id/overlayContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:animateLayoutChanges="true"
+        tools:ignore="UnusedAttribute">
+        <include layout="@layout/overlay_random_scan"/>
+    </FrameLayout>
+
+</FrameLayout>
