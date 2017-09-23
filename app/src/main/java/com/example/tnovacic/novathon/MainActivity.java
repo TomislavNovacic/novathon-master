@@ -49,10 +49,9 @@ public class MainActivity extends AppCompatActivity {
         JSONpodaci JS = new JSONpodaci();
 
         if( !(user.getText().equals("")) && !(password.getText().equals(""))){
-            user.setText(JS.salji("Hello"));
-            //JS.salji("hello");
-            //user.setText(JS.pakiranje(user.getText().toString(), password.getText().toString()));
+            JS.pakiranje(user.getText().toString(), password.getText().toString());
             startActivity(Activity2);
+            finish();
         }
 
     }

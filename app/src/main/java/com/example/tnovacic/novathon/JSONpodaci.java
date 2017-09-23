@@ -37,7 +37,7 @@ public class JSONpodaci {
         } catch (JSONException e) {
 
         }
-        //return salji(O.toString());
+        salji(O.toString());
     }
 
     String[][] elementi = {{"VODA","PICE"},
@@ -64,13 +64,42 @@ public class JSONpodaci {
             }
         }
     }
-    //final static String url = "http://10.20.0.89/web-api/test";
+
+
+    char s[] = new char[100];
     String fini = null;
     String data;
-    public String salji(String data) {
+
+    public void salji(String data) {
         this.data = data;
         new slanje().execute();
-        return fini;
+    }
+
+    class podaci{
+        int id;
+        String ime, prezime, adresa;
+        int post;
+        String mail, phone, rodendan;
+        int income;
+    }
+
+    public void pasiranje(String s){
+        try {
+            JSONObject S = new JSONObject(s);
+            podaci pod = new podaci();
+            pod.id = S.getInt("id");
+            pod.ime = S.getString("first_name");
+            pod.prezime = S.getString("last_name");
+            pod.adresa = S.getString("user_adress");
+            pod.post = S.getInt("post_number");
+            pod.mail = S.getString("email");
+            pod.rodendan = S.getString("birthday");
+            pod.phone = S.getString("phone");
+            pod.income = S.getInt("income");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
     }
 
     class slanje extends AsyncTask<Void ,Void,Void>{
@@ -82,20 +111,24 @@ public class JSONpodaci {
                         HttpURLConnection httpCon = (HttpURLConnection) url.openConnection();
                         httpCon.setDoOutput(true);
                         httpCon.setRequestMethod("POST");
-                        //InputStreamReader in = new InputStreamReader(httpCon.getInputStream());
+
                         OutputStreamWriter out = new OutputStreamWriter(
                                 httpCon.getOutputStream());
                         System.out.println(httpCon.getResponseCode());
                         System.out.println(httpCon.getResponseMessage());
                         out.close();
-                        //fini = in.toString();
-                        //in.close();
-
-
+                        InputStreamReader in = new InputStreamReader(httpCon.getInputStream());
+                        System.out.println(in.read(s,0, 100));
+                        in.close();
             }catch (Exception e){
                 fini = "false";
             }
+            fini = String.copyValueOf(s);
             return null;
+        }
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            pasiranje(fini);
         }
     }
 }
