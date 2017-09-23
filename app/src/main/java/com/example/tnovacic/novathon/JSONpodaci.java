@@ -18,6 +18,5 @@ public class JSONpodaci {
             return "";
         }
         return O.toString();
-
     }
 }
