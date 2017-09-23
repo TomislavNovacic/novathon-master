@@ -29,13 +29,6 @@ public class MainActivity extends AppCompatActivity {
         password = (EditText) findViewById(R.id.password_login);
         Activity2 = new Intent(this, Activity2.class);
 
-        Button gumb = (Button) findViewById(R.id.btnStart);
-        gumb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
     }
 
     public void logiranje(View v){
