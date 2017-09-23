@@ -3,12 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FullScreenOCR/FullScreenOCR.iml" filepath="$PROJECT_DIR$/FullScreenOCR/FullScreenOCR.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FullScreenOCR/FullScreenOCR.iml" filepath="$PROJECT_DIR$/FullScreenOCR/FullScreenOCR.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LibBlinkInput/LibBlinkInput.iml" filepath="$PROJECT_DIR$/LibBlinkInput/LibBlinkInput.iml" />
       <module fileurl="file://$PROJECT_DIR$/LibBlinkInput/LibBlinkInput.iml" filepath="$PROJECT_DIR$/LibBlinkInput/LibBlinkInput.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/novathon-master.iml" filepath="$PROJECT_DIR$/novathon-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/novathon-master.iml" filepath="$PROJECT_DIR$/novathon-master.iml" />
     </modules>
   </component>
