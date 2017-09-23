@@ -29,15 +29,27 @@ public class MainActivity extends AppCompatActivity {
         password = (EditText) findViewById(R.id.password_login);
         Activity2 = new Intent(this, Activity2.class);
 
+        Button btn = (Button) findViewById(R.id.login_button);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                logiranje(v);
+            }
+        });
+
     }
 
     public void logiranje(View v){
         JSONpodaci JS = new JSONpodaci();
 
-        if( (user.getText().equals("")) && (password.getText().equals(""))){
-            String zaslanje = JS.pakiranje(user.getText().toString(), password.getText().toString());
+        if( !(user.getText().equals("")) && !(password.getText().equals(""))){
+            user.setText(JS.salji("Hello"));
+            //JS.salji("hello");
+            //user.setText(JS.pakiranje(user.getText().toString(), password.getText().toString()));
+            //startActivity(Activity2);
         }
-        startActivity(Activity2);
+
     }
 
 
