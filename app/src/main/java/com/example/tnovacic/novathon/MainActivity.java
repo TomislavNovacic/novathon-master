@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
     String proizvodsZarezom1;
     String proizvodsZarezom2;
 
-
     private static final String LICENSE_KEY = "QIFSS7YI-G2WAMKWX-LPZUXECB-2BLCYTRR-JDLBGALA-ZNZMCVRM-JYYUQ5VL-EQQDCSWM";
 
     private static final int REQ_CODE_OCR = 234;
