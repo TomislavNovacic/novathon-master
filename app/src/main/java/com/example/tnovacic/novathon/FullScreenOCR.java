@@ -33,7 +33,9 @@ import com.microblink.metadata.MetadataSettings;
 import com.microblink.metadata.OcrMetadata;
 import com.microblink.metadata.TextMetadata;
 import com.microblink.recognition.InvalidLicenceKeyException;
+import com.microblink.recognizers.BaseRecognitionResult;
 import com.microblink.recognizers.RecognitionResults;
+import com.microblink.recognizers.blinkinput.BlinkInputRecognitionResult;
 import com.microblink.recognizers.settings.RecognitionSettings;
 import com.microblink.util.CameraPermissionManager;
 import com.microblink.util.Log;
@@ -502,6 +504,19 @@ public class FullScreenOCR extends Activity implements MetadataListener, CameraE
     public void onScanningDone(RecognitionResults results) {
         // scanning will be resumed automatically
         // TODO decide when results are good enough and return them to the calling activity
+        BaseRecognitionResult[] resArray = results.getRecognitionResults();
+        if (resArray.length == 1 && resArray[0] instanceof BlinkInputRecognitionResult) {
+            BlinkInputRecognitionResult result = (BlinkInputRecognitionResult) resArray[0];
+            String rawString = result.getParsedResult("Raw");
+            Log.w(this, "PROBA Result is: {}", rawString);
+            boolean resultOK = false;
+            if (resultOK) {
+                Intent resInent = new Intent();
+                resInent.putExtra("EXTRA_RES", rawString);
+                setResult(RESULT_OK, resInent);
+                finish();
+            }
+        }
     }
 
     @Override
