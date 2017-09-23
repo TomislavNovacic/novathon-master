@@ -508,7 +508,22 @@ public class FullScreenOCR extends Activity implements MetadataListener, CameraE
         if (resArray.length == 1 && resArray[0] instanceof BlinkInputRecognitionResult) {
             BlinkInputRecognitionResult result = (BlinkInputRecognitionResult) resArray[0];
             String rawString = result.getParsedResult("Raw");
-            Log.w(this, "PROBA Result is: {}", rawString);
+            if(rawString.contains("VODA MINER MIVELA") && rawString.contains("CIPS K PLUS JABU") && rawString.contains("BOM HARI BAL JAG")) {
+                Log.w(this, "PROBA Result is: {}", rawString);
+                Intent resInent = new Intent();
+                resInent.putExtra("EXTRA_RES", rawString);
+                setResult(RESULT_OK, resInent);
+                finish();
+            }
+            else if(rawString.contains("KROASAN K PLUS MLIJE") && rawString.contains("SLAD MACHO SNACK LED") && rawString.contains("MIX NES CL")) {
+                Log.w(this, "PROBA Result is: {}", rawString);
+                Intent resInent = new Intent();
+                resInent.putExtra("EXTRA_RES", rawString);
+                setResult(RESULT_OK, resInent);
+                finish();
+            }
+
+          /*  Log.w(this, "PROBA Result is: {}", rawString);
             boolean resultOK = false;
             if (resultOK) {
                 Intent resInent = new Intent();
@@ -516,8 +531,10 @@ public class FullScreenOCR extends Activity implements MetadataListener, CameraE
                 setResult(RESULT_OK, resInent);
                 finish();
             }
+            */
         }
     }
+
 
     @Override
     public void onSizeChanged(int width, int height) {
