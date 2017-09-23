@@ -66,7 +66,7 @@ public class JSONpodaci {
     }
 
 
-    char s[] = new char[100];
+    char s[] = new char[250];
     String fini = null;
     String data;
 
@@ -118,7 +118,7 @@ public class JSONpodaci {
                         System.out.println(httpCon.getResponseMessage());
                         out.close();
                         InputStreamReader in = new InputStreamReader(httpCon.getInputStream());
-                        System.out.println(in.read(s,0, 100));
+                        System.out.println(in.read(s,0, 250));
                         in.close();
             }catch (Exception e){
                 fini = "false";

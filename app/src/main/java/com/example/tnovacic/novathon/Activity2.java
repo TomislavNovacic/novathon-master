@@ -27,6 +27,7 @@ public class Activity2 extends AppCompatActivity {
     private static final int REQ_CODE_OCR = 234;
 
     LinearLayout[] bars = new LinearLayout[5];
+    LinearLayout koliko;
     FloatingActionButton float_but;
     String proizvodsZarezom1;
     String proizvodsZarezom2;
@@ -41,6 +42,7 @@ public class Activity2 extends AppCompatActivity {
         bars[2] = (LinearLayout) findViewById(R.id.bills_bar);
         bars[3] = (LinearLayout) findViewById(R.id.fuel_bar);
         bars[4] = (LinearLayout) findViewById(R.id.other_bar);
+        koliko = (LinearLayout) findViewById(R.id.koliko);
 
 
         bars[0].setBackgroundColor(Color.parseColor("#3F51B5"));
@@ -48,6 +50,7 @@ public class Activity2 extends AppCompatActivity {
         bars[2].setBackgroundColor(Color.parseColor("#F4511E"));
         bars[3].setBackgroundColor(Color.parseColor("#CDDC39"));
         bars[4].setBackgroundColor(Color.parseColor("#8D6E63"));
+        koliko.setBackgroundColor(Color.parseColor("#BDBDBD"));
 
         float_but = (FloatingActionButton) findViewById(R.id.floatingActionButton);
 

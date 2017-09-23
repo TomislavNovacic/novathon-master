@@ -74,7 +74,7 @@
         android:id="@+id/Other"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
-        android:layout_marginLeft="58dp"
+        android:layout_marginLeft="57dp"
         android:layout_marginStart="57dp"
         android:layout_marginTop="16dp"
         android:text="  Other"
@@ -111,7 +111,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="81dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginRight="81dp"
         android:layout_marginTop="80dp"
         android:text="0,00"
         android:textSize="18sp"
@@ -250,17 +250,6 @@
         android:layout_marginTop="16dp"></LinearLayout>
 
     <LinearLayout
-        android:id="@+id/other_bar"
-        android:layout_width="65dp"
-        android:layout_height="30dp"
-        android:orientation="horizontal"
-        android:layout_marginRight="33dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="33dp"></LinearLayout>
-
-    <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="23dp"
         android:layout_height="25dp"
@@ -269,7 +258,8 @@
         android:background="#3F51B5"
         android:orientation="horizontal"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="31dp"></LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -280,7 +270,8 @@
         android:background="#64B5F6"
         android:orientation="horizontal"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"></LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:layout_marginStart="31dp"></LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
@@ -291,7 +282,8 @@
         android:background="#F4511E"
         android:orientation="horizontal"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"></LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        android:layout_marginStart="31dp"></LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout4"
@@ -302,7 +294,8 @@
         android:background="#CDDC39"
         android:orientation="horizontal"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"></LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        android:layout_marginStart="31dp"></LinearLayout>
 
     <LinearLayout
         android:layout_width="23dp"
@@ -313,6 +306,26 @@
         android:orientation="horizontal"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
-        android:id="@+id/linearLayout5"></LinearLayout>
+        android:id="@+id/linearLayout5"
+        android:layout_marginStart="31dp"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/koliko"
+        android:layout_width="326dp"
+        android:layout_height="10dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="3dp"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/other_bar"
+        android:layout_width="65dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
