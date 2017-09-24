@@ -8,8 +8,10 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutCompat;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.microblink.recognizers.blinkinput.BlinkInputRecognizerSettings;
 import com.microblink.recognizers.blinkocr.engine.BlinkOCREngineOptions;
@@ -30,6 +32,12 @@ public class Activity2 extends AppCompatActivity {
     FloatingActionButton float_but;
     String proizvodsZarezom1;
     String proizvodsZarezom2;
+    TextView inputFood;
+    TextView inputDrinks;
+    TextView inputBills;
+    TextView input1Fuel;
+    TextView inputOther;
+    TextView inputRemaining;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,13 +49,22 @@ public class Activity2 extends AppCompatActivity {
         bars[2] = (LinearLayout) findViewById(R.id.bills_bar);
         bars[3] = (LinearLayout) findViewById(R.id.fuel_bar);
         bars[4] = (LinearLayout) findViewById(R.id.other_bar);
+        bars[5] = (LinearLayout) findViewById(R.id.other_bar);
 
 
         bars[0].setBackgroundColor(Color.parseColor("#3F51B5"));
-        bars[1].setBackgroundColor(Color.parseColor("#64B5F6"));
-        bars[2].setBackgroundColor(Color.parseColor("#F4511E"));
-        bars[3].setBackgroundColor(Color.parseColor("#CDDC39"));
-        bars[4].setBackgroundColor(Color.parseColor("#8D6E63"));
+        bars[1].setBackgroundColor(Color.parseColor("#4CAF50"));
+        bars[2].setBackgroundColor(Color.parseColor("#795548"));
+        bars[3].setBackgroundColor(Color.parseColor("#795548"));
+        bars[4].setBackgroundColor(Color.parseColor("#607D8B"));
+        bars[5].setBackgroundColor(Color.parseColor("#BDBDBD"));
+
+        inputFood = (TextView) findViewById(R.id.food_num);
+        inputDrinks = (TextView) findViewById(R.id.drink_num);
+        inputBills = (TextView) findViewById(R.id.bills_num);
+        input1Fuel = (TextView) findViewById(R.id.fuel_num);
+        inputOther = (TextView) findViewById(R.id.other_num);
+        inputRemaining = (TextView) findViewById(R.id.rem_num);
 
         float_but = (FloatingActionButton) findViewById(R.id.floatingActionButton);
 
@@ -101,7 +118,7 @@ public class Activity2 extends AppCompatActivity {
             }
         }
 
-        ArrayList<String> finalnaListaProizvoda = new ArrayList<>();
+        ArrayList<Proizvod> finalnaListaProizvoda = new ArrayList<>();
         for (String proizvod: listaProizvoda) {
             String nazivProizvoda = "";
             String proizvodsaSpaceom[] = proizvod.split(" +");
@@ -118,8 +135,12 @@ public class Activity2 extends AppCompatActivity {
                 nazivProizvoda = nazivProizvoda + "G";
             }
 
-            finalnaListaProizvoda.add(nazivProizvoda.trim());
-            finalnaListaProizvoda.add(proizvodsaSpaceom[proizvodSize -3]);
+            Proizvod proizvodObjekt = new Proizvod();
+            proizvodObjekt.setNazivProizvoda(nazivProizvoda.trim());
+            proizvodObjekt.setKolicina(proizvodsaSpaceom[proizvodSize -3]);
+
+          //  finalnaListaProizvoda.add(nazivProizvoda.trim());
+          //  finalnaListaProizvoda.add(proizvodsaSpaceom[proizvodSize -3]);
 
             if(!(proizvodsaSpaceom[proizvodSize -2].contains(","))) {
                 proizvodsZarezom1 = "";
@@ -130,14 +151,16 @@ public class Activity2 extends AppCompatActivity {
                     proizvodsaSpaceom[proizvodSize -2] = proizvodsaSpaceom[proizvodSize -2].substring(0,2);
                     proizvodsaSpaceom[proizvodSize -2] = proizvodsaSpaceom[proizvodSize -2] + "00";
                 }
-                finalnaListaProizvoda.add(proizvodsZarezom1.trim());
+                proizvodObjekt.setCijena(proizvodsZarezom1.trim());
+                //finalnaListaProizvoda.add(proizvodsZarezom1.trim());
             }
             else {
                 if(!(proizvodsaSpaceom[proizvodSize -2].contains("O")) || proizvodsaSpaceom[proizvodSize -2].contains("o") || (proizvodsaSpaceom[proizvodSize -2].length() <= 4) && proizvodsaSpaceom[proizvodSize -2].contains(",") || (proizvodsaSpaceom[proizvodSize -2].length() <= 3) && !(proizvodsaSpaceom[proizvodSize -2].contains(",")) ) {
                     proizvodsaSpaceom[proizvodSize -2] = proizvodsaSpaceom[proizvodSize -2].substring(0,2);
                     proizvodsaSpaceom[proizvodSize -2] = proizvodsaSpaceom[proizvodSize -2] + "00";
                 }
-                finalnaListaProizvoda.add(proizvodsaSpaceom[proizvodSize -2]);
+                proizvodObjekt.setCijena(proizvodsZarezom1.trim());
+                //finalnaListaProizvoda.add(proizvodsaSpaceom[proizvodSize -2]);
             }
 
 
@@ -152,16 +175,30 @@ public class Activity2 extends AppCompatActivity {
                     proizvodsaSpaceom[proizvodSize -1] = proizvodsaSpaceom[proizvodSize -1].substring(0,2);
                     proizvodsaSpaceom[proizvodSize -1] = proizvodsaSpaceom[proizvodSize -1] + "00";
                 }
-                finalnaListaProizvoda.add(proizvodsZarezom2.trim());
+                proizvodObjekt.setIznos(proizvodsZarezom2.trim());
+                //finalnaListaProizvoda.add(proizvodsZarezom2.trim());
             }
             else {
                 if(!(proizvodsaSpaceom[proizvodSize -1].contains("O")) || proizvodsaSpaceom[proizvodSize -1].contains("o") || (proizvodsaSpaceom[proizvodSize -1].length() <= 4) && proizvodsaSpaceom[proizvodSize -1].contains(",") || (proizvodsaSpaceom[proizvodSize -1].length() <= 3) && !(proizvodsaSpaceom[proizvodSize -1].contains(",")) ) {
                     proizvodsaSpaceom[proizvodSize -1] = proizvodsaSpaceom[proizvodSize -1].substring(0,2);
                     proizvodsaSpaceom[proizvodSize -1] = proizvodsaSpaceom[proizvodSize -1] + "00";
                 }
-                finalnaListaProizvoda.add(proizvodsaSpaceom[proizvodSize -1]);
+                proizvodObjekt.setIznos(proizvodsZarezom2.trim());
+                //finalnaListaProizvoda.add(proizvodsaSpaceom[proizvodSize -1]);
             }
+            finalnaListaProizvoda.add(proizvodObjekt);
         }
+        JSONpodaci.parsiranje(finalnaListaProizvoda);
         Log.w(this, "PROBA Result is: {}", finalnaListaProizvoda);
+    }
+
+    public void hendlanjePodataka(String food, String drinks, String bills, String fuel, String other, String remaining) {
+        String valuta = " HRK";
+        inputFood.setText(food + valuta);
+        inputDrinks.setText(drinks + valuta);
+        inputBills.setText(bills + valuta);
+        input1Fuel.setText(fuel + valuta);
+        inputOther.setText(other + valuta);
+        inputRemaining.setText(remaining + valuta);
     }
 }

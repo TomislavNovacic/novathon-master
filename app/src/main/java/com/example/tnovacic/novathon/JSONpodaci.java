@@ -40,7 +40,7 @@ public class JSONpodaci {
         //return salji(O.toString());
     }
 
-    String[][] elementi = {{"VODA","PICE"},
+    static final String[][] elementi = {{"VODA","PICE"},
             {"CIPS","HRANA"},
             {"SOK","PICE"},
             {"BOMONI","HRANA"},
@@ -51,11 +51,22 @@ public class JSONpodaci {
             {"STRUJA","RACUNI"},
             {"MAJICA","OSTALO"}};
 
-    public void parsiranje(String str1, String str2, String str3, String str4){
+    public static void parsiranje(ArrayList<Proizvod> listaProizvoda) {
+        String str1 = "";
+        String str2 = "";
+        String str3 = "";
+        String str4 = "";
+
+        for (Proizvod proizvod : listaProizvoda) {
+            str1 = proizvod.getNazivProizvoda();
+            str2 = proizvod.getKolicina();
+            str3 = proizvod.getCijena();
+            str4 = proizvod.getIznos();
+
         int i = 0;
         JSONObject obj = new JSONObject();
-        double cifra = ((double)Integer.getInteger(str4)/100)*Integer.getInteger(str2);
-        if(str1.contains(elementi[i++][0])){
+        double cifra = ((double) Integer.getInteger(str4) / 100) * Integer.getInteger(str2);
+        if (str1.contains(elementi[i++][0])) {
             try {
                 obj.put("CIFRA:", cifra);
                 obj.put("KATEGORIJA:", elementi[i][1]);
@@ -63,6 +74,7 @@ public class JSONpodaci {
                 e.printStackTrace();
             }
         }
+      }
     }
     //final static String url = "http://10.20.0.89/web-api/test";
     String fini = null;

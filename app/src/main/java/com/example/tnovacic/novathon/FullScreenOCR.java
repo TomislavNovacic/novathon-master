@@ -233,8 +233,10 @@ public class FullScreenOCR extends Activity implements MetadataListener, CameraE
         mBackButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setResult(RESULT_CANCELED, null);
-                finish();
+             //   setResult(RESULT_CANCELED, null);
+             //   finish();
+                Intent intent = new Intent(FullScreenOCR.this, Activity2.class);
+                startActivity(intent);
             }
         });
 
