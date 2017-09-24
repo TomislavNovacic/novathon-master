@@ -127,23 +127,31 @@ public class MainActivity extends AppCompatActivity {
         new slanje1().execute();
     }
 
-    class podaci{
-        int id;
-        String ime, prezime, adresa;
-        int post;
-        String mail, phone, rodendan;
-        int income;
-    }
     public boolean pakiranje(String user, String password){
         salji1("email="+user+"&password="+password);
         return true;
     }
 
     public void pasiranje(String s){
+
+        int id,post, income;
+        String ime, prezime, adresa,mail,
+        rodendan, phone;
         try {
             JSONObject S = new JSONObject(s);
-            podaci pod = new podaci();
+
             if(S.getString("result") == "success")
+            id = S.getInt("id");
+            ime = S.getString("first_name");
+            prezime = S.getString("last_name");
+            adresa = S.getString("user_address");
+            post = S.getInt("post_number");
+            mail = S.getString("email");
+            rodendan = S.getString("birthday");
+            phone = S.getString("phone");
+            income = S.getInt("income");
+
+            podaci pod = new podaci();
             pod.id = S.getInt("id");
             pod.ime = S.getString("first_name");
             pod.prezime = S.getString("last_name");

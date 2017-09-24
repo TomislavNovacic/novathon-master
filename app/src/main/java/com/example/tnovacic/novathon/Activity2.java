@@ -40,7 +40,7 @@ public class Activity2 extends AppCompatActivity {
     TextView input1Fuel;
     TextView inputOther;
     TextView inputRemaining;
-
+    podaci pod = new podaci();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +52,7 @@ public class Activity2 extends AppCompatActivity {
         bars[3] = (LinearLayout) findViewById(R.id.fuel_bar);
         bars[4] = (LinearLayout) findViewById(R.id.other_bar);
         user_txt = (TextView) findViewById(R.id.user_txt);
-        //user_txt.setText(npodaci.pod.prezime);
+        user_txt.setText(pod.ime+ " " + pod.prezime+"' stats");
        // bars[5] = (LinearLayout) findViewById(R.id.other_bar);
 
 
