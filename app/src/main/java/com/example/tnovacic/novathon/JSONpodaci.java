@@ -24,14 +24,14 @@ public class JSONpodaci {
         return true;
     }
 
-    static final String[][] elementi = {{"VODA","PICE"},
-            {"CIPS","HRANA"},
+    static final String[][] elementi = {{"MINER MIVEL","PICE"},
+            {"CIPS K PLUS","HRANA"},
             {"SOK","PICE"},
-            {"BOMONI","HRANA"},
-            {"NESKAFE","HRANA"},
-            {"SLADOLED","HRANA"},
+            {"BOM","HRANA"},
+            {"NES CL","HRANA"},
+            {"SNACK LED","HRANA"},
             {"DIZEL","GORIVO"},
-            {"KROASAN","HRANA"},
+            {"K PLUS MLIJE","HRANA"},
             {"STRUJA","RACUNI"},
             {"MAJICA","OSTALO"}};
 
@@ -50,7 +50,7 @@ public class JSONpodaci {
             if(proizvod.getIznos().equals("")) {
                 str4 = proizvod.getCijena();
             }
-            if(proizvod.getIznos().equals("") && proizvod.getCijena().equals("")) {
+            if(proizvod.getIznos().equals("") || proizvod.getCijena().equals("")) {
                 if (proizvod.getNazivProizvoda().contains("MINER MIVELA")) {
                     str3 = "5,99";
                     str4 = "5,99";
@@ -79,8 +79,23 @@ public class JSONpodaci {
 
         int i = 0;
         JSONObject obj = new JSONObject();
-        double cifra = ((double) Integer.getInteger(str4) / 100) * Integer.getInteger(str2);
-        if (str1.contains(elementi[0][i++])) {
+            double cifra = 0;
+            if(str3.contains(",")) {
+                String vrij = str3;
+                str3 = str3.substring(0,1);
+                str3 = str3 + "." + vrij.substring(2,3);
+            }
+            if(str4.contains(",")) {
+                String vrij = str4;
+                str4 = str4.substring(0,1);
+                str4 = str4 + "." + vrij.substring(2,3);
+            }
+            try {
+                cifra = ((double) Double.parseDouble(str4) / 100) * Double.parseDouble(str2);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            if (str1.contains(elementi[0][i++])) {
             try {
                 obj.put("CIFRA:", cifra);
                 obj.put("KATEGORIJA:", elementi[1][i]);
