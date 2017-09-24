@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
 
         if( !(user.getText().equals("")) && !(password.getText().equals(""))){
             JS.pakiranje(user.getText().toString(), password.getText().toString());
-            startActivity(Activity2);
-            finish();
+                startActivity(Activity2);
+                finish();
         }
 
     }
