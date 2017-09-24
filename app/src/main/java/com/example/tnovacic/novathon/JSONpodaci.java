@@ -34,7 +34,7 @@ public class JSONpodaci {
             {"K PLUS MLIJE","HRANA"},
             {"STRUJA","RACUNI"},
             {"MAJICA","OSTALO"}};
-    static String slanje;
+    static String slanje_str;
 
     public static void parsiranje(ArrayList<Proizvod> listaProizvoda) {
         String str1 = "";
@@ -96,13 +96,13 @@ public class JSONpodaci {
                 e.printStackTrace();
             }
             if (str1.contains(elementi[0][i++])) {
-                slanje = "cifra="+cifra+"&kategorija="+elementi[1][i];
+                slanje_str = "cifra="+cifra+"&kategorija="+elementi[1][i];
                 new slanje().execute();
         }
       }
     }
 
-
+    podaci pod;
     char s[] = new char[250];
     String fini = null;
     String data;
@@ -126,7 +126,7 @@ public class JSONpodaci {
     public void pasiranje(String s){
         try {
             JSONObject S = new JSONObject(s);
-            podaci pod = new podaci();
+            pod = new podaci();
             pod.id = S.getInt("id");
             pod.ime = S.getString("first_name");
             pod.prezime = S.getString("last_name");
@@ -150,13 +150,13 @@ public class JSONpodaci {
         protected Void doInBackground(Void... params) {
             URL url = null;
             try {
-                url = new URL("http://10.20.0.89/web-api/test");
+                url = new URL("http://10.20.0.89/web-api/data");
                 HttpURLConnection httpCon = (HttpURLConnection) url.openConnection();
                 httpCon.setDoOutput(true);
                 httpCon.setRequestMethod("POST");
                 OutputStreamWriter out = new OutputStreamWriter(
                         httpCon.getOutputStream());
-                out.write(slanje);
+                out.write(slanje_str);
                 out.flush();
                 System.out.println(httpCon.getResponseCode());
                 System.out.println(httpCon.getResponseMessage());
@@ -172,7 +172,7 @@ public class JSONpodaci {
         protected Void doInBackground(Void... params) {
             URL url = null;
             try {
-                url = new URL("http://10.20.0.89/web-api/test");
+                url = new URL("http://10.20.0.89/web-api/login");
                 HttpURLConnection httpCon = (HttpURLConnection) url.openConnection();
                 httpCon.setDoOutput(true);
                 httpCon.setRequestMethod("POST");

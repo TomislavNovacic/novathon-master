@@ -20,6 +20,8 @@ import com.microblink.recognizers.settings.RecognitionSettings;
 import com.microblink.recognizers.settings.RecognizerSettings;
 import com.microblink.util.Log;
 
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 
 public class Activity2 extends AppCompatActivity {
@@ -33,7 +35,7 @@ public class Activity2 extends AppCompatActivity {
     FloatingActionButton float_but;
     String proizvodsZarezom1;
     String proizvodsZarezom2;
-    TextView inputFood;
+    TextView inputFood, user_txt;
     TextView inputDrinks;
     TextView inputBills;
     TextView input1Fuel;
@@ -44,12 +46,14 @@ public class Activity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
-
+        JSONpodaci npodaci = new JSONpodaci();
         bars[0] = (LinearLayout) findViewById(R.id.food_bar);
         bars[1] = (LinearLayout) findViewById(R.id.drinks_bar);
         bars[2] = (LinearLayout) findViewById(R.id.bills_bar);
         bars[3] = (LinearLayout) findViewById(R.id.fuel_bar);
         bars[4] = (LinearLayout) findViewById(R.id.other_bar);
+        user_txt = (TextView) findViewById(R.id.user_txt);
+        //user_txt.setText(npodaci.pod.prezime);
        // bars[5] = (LinearLayout) findViewById(R.id.other_bar);
 
 
