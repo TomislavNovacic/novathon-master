@@ -34,6 +34,7 @@ public class JSONpodaci {
             {"K PLUS MLIJE","HRANA"},
             {"STRUJA","RACUNI"},
             {"MAJICA","OSTALO"}};
+    static String slanje;
 
     public static void parsiranje(ArrayList<Proizvod> listaProizvoda) {
         String str1 = "";
@@ -78,7 +79,6 @@ public class JSONpodaci {
             }
 
         int i = 0;
-        JSONObject obj = new JSONObject();
             double cifra = 0;
             if(str3.contains(",")) {
                 String vrij = str3;
@@ -96,12 +96,8 @@ public class JSONpodaci {
                 e.printStackTrace();
             }
             if (str1.contains(elementi[0][i++])) {
-            try {
-                obj.put("CIFRA:", cifra);
-                obj.put("KATEGORIJA:", elementi[1][i]);
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
+                slanje = "cifra="+cifra+"&kategorija="+elementi[1][i];
+                new slanje().execute();
         }
       }
     }
@@ -146,7 +142,28 @@ public class JSONpodaci {
             e.printStackTrace();
             System.out.println("Greska pri pasiranjz");
         }
+    }
 
+    static class slanje extends AsyncTask<Void, Void, Void>{
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            URL url = null;
+            try {
+                url = new URL("http://10.20.0.89/web-api/test");
+                HttpURLConnection httpCon = (HttpURLConnection) url.openConnection();
+                httpCon.setDoOutput(true);
+                httpCon.setRequestMethod("POST");
+                OutputStreamWriter out = new OutputStreamWriter(
+                        httpCon.getOutputStream());
+                out.write(slanje);
+                out.flush();
+                System.out.println(httpCon.getResponseCode());
+                System.out.println(httpCon.getResponseMessage());
+                out.close();
+            }catch (Exception e){System.out.println("greska pri primanju");}
+            return null;
+        }
     }
 
     class slanje1 extends AsyncTask<Void, Void, Void>{
