@@ -29,6 +29,7 @@ public class Activity2 extends AppCompatActivity {
     private static final int REQ_CODE_OCR = 234;
 
     LinearLayout[] bars = new LinearLayout[5];
+    LinearLayout koliko;
     FloatingActionButton float_but;
     String proizvodsZarezom1;
     String proizvodsZarezom2;
