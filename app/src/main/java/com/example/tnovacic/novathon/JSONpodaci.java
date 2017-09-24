@@ -41,6 +41,9 @@ public class JSONpodaci {
         String str2 = "";
         String str3 = "";
         String str4 = "";
+        double cifra = 0;
+        int i = 0;
+        ArrayList<Double> listaCifri = new ArrayList<>();
 
         for (Proizvod proizvod : listaProizvoda) {
             str1 = proizvod.getNazivProizvoda();
@@ -78,8 +81,8 @@ public class JSONpodaci {
                 }
             }
 
-        int i = 0;
-            double cifra = 0;
+        i = 0;
+            cifra = 0;
             if(str3.contains(",")) {
                 String vrij = str3;
                 str3 = str3.substring(0,1);
@@ -90,16 +93,18 @@ public class JSONpodaci {
                 str4 = str4.substring(0,1);
                 str4 = str4 + "." + vrij.substring(2,3);
             }
+
             try {
                 cifra = ((double) Double.parseDouble(str4) / 100) * Double.parseDouble(str2);
+                listaCifri.add(cifra);
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            if (str1.contains(elementi[0][i++])) {
-                slanje_str = "cifra="+cifra+"&kategorija="+elementi[1][i];
-                new slanje().execute();
-        }
       }
+        if (str1.contains(elementi[0][i++])) {
+            slanje_str = "cifra="+listaCifri+"&kategorija="+elementi[1][i];
+            new slanje().execute();
+        }
     }
 
     podaci pod;
