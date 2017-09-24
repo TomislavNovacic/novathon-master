@@ -510,14 +510,14 @@ public class FullScreenOCR extends Activity implements MetadataListener, CameraE
         if (resArray.length == 1 && resArray[0] instanceof BlinkInputRecognitionResult) {
             BlinkInputRecognitionResult result = (BlinkInputRecognitionResult) resArray[0];
             String rawString = result.getParsedResult("Raw");
-            if(rawString.contains("VODA MINER MIVELA") && rawString.contains("CIPS K PLUS JABU") && rawString.contains("BOM HARI BAL JAG")) {
+            if(rawString.contains("MINER MIVELA") && rawString.contains("CIPS K PLUS") && rawString.contains("BOM") && (rawString.contains("599") || rawString.contains("5,99")) && (rawString.contains("699") || rawString.contains("6,99")) && (rawString.contains("799") || rawString.contains("7,99"))) {
                 Log.w(this, "PROBA Result is: {}", rawString);
                 Intent resInent = new Intent();
                 resInent.putExtra("EXTRA_RES", rawString);
                 setResult(RESULT_OK, resInent);
                 finish();
             }
-            else if(rawString.contains("KROASAN K PLUS MLIJE") && rawString.contains("SLAD MACHO SNACK LED") && rawString.contains("MIX NES CL")) {
+            else if(rawString.contains("K PLUS MLIJE") && rawString.contains("SNACK LED") && rawString.contains("NES CL") && (rawString.contains("329") || rawString.contains("3,29")) && (rawString.contains("600") || rawString.contains("6,00")) && (rawString.contains("2,69") || rawString.contains("2,69"))) {
                 Log.w(this, "PROBA Result is: {}", rawString);
                 Intent resInent = new Intent();
                 resInent.putExtra("EXTRA_RES", rawString);

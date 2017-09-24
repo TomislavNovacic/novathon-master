@@ -44,16 +44,46 @@ public class JSONpodaci {
         for (Proizvod proizvod : listaProizvoda) {
             str1 = proizvod.getNazivProizvoda();
             str2 = proizvod.getKolicina();
-            str3 = proizvod.getCijena();
-            str4 = proizvod.getIznos();
+            if(proizvod.getCijena().equals("")) {
+                str3 = proizvod.getIznos();
+            }
+            if(proizvod.getIznos().equals("")) {
+                str4 = proizvod.getCijena();
+            }
+            if(proizvod.getIznos().equals("") && proizvod.getCijena().equals("")) {
+                if (proizvod.getNazivProizvoda().contains("MINER MIVELA")) {
+                    str3 = "5,99";
+                    str4 = "5,99";
+                }
+                if (proizvod.getNazivProizvoda().contains("CIPS K PLUS")) {
+                    str3 = "6,99";
+                    str4 = "6,99";
+                }
+                if (proizvod.getNazivProizvoda().contains("BOM")) {
+                    str3 = "7,99";
+                    str4 = "7,99";
+                }
+                if (proizvod.getNazivProizvoda().contains("K PLUS MLIJE")) {
+                    str3 = "3,29";
+                    str4 = "3,29";
+                }
+                if (proizvod.getNazivProizvoda().contains("SNACK LED")) {
+                    str3 = "6,00";
+                    str4 = "6,00";
+                }
+                if (proizvod.getNazivProizvoda().contains("NES CL")) {
+                    str3 = "2,69";
+                    str4 = "2,69";
+                }
+            }
 
         int i = 0;
         JSONObject obj = new JSONObject();
         double cifra = ((double) Integer.getInteger(str4) / 100) * Integer.getInteger(str2);
-        if (str1.contains(elementi[i++][0])) {
+        if (str1.contains(elementi[0][i++])) {
             try {
                 obj.put("CIFRA:", cifra);
-                obj.put("KATEGORIJA:", elementi[i][1]);
+                obj.put("KATEGORIJA:", elementi[1][i]);
             } catch (JSONException e) {
                 e.printStackTrace();
             }

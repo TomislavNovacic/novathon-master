@@ -142,7 +142,7 @@ public class Activity2 extends AppCompatActivity {
 
           //  finalnaListaProizvoda.add(nazivProizvoda.trim());
           //  finalnaListaProizvoda.add(proizvodsaSpaceom[proizvodSize -3]);
-
+                proizvodsZarezom1 = "";
             if(!(proizvodsaSpaceom[proizvodSize -2].contains(","))) {
                 proizvodsZarezom1 = "";
                 int duljina = proizvodsaSpaceom[proizvodSize -2].length() - 2;
@@ -164,9 +164,7 @@ public class Activity2 extends AppCompatActivity {
                 //finalnaListaProizvoda.add(proizvodsaSpaceom[proizvodSize -2]);
             }
 
-
-
-
+            proizvodsZarezom2 = "";
             if(!(proizvodsaSpaceom[proizvodSize -1].contains(","))) {
                 proizvodsZarezom2 = "";
                 int duljina = proizvodsaSpaceom[proizvodSize -1].length() - 2;
