@@ -50,7 +50,7 @@ public class Activity2 extends AppCompatActivity {
         bars[2] = (LinearLayout) findViewById(R.id.bills_bar);
         bars[3] = (LinearLayout) findViewById(R.id.fuel_bar);
         bars[4] = (LinearLayout) findViewById(R.id.other_bar);
-        bars[5] = (LinearLayout) findViewById(R.id.other_bar);
+       // bars[5] = (LinearLayout) findViewById(R.id.other_bar);
 
 
         bars[0].setBackgroundColor(Color.parseColor("#3F51B5"));
@@ -58,7 +58,7 @@ public class Activity2 extends AppCompatActivity {
         bars[2].setBackgroundColor(Color.parseColor("#795548"));
         bars[3].setBackgroundColor(Color.parseColor("#795548"));
         bars[4].setBackgroundColor(Color.parseColor("#607D8B"));
-        bars[5].setBackgroundColor(Color.parseColor("#BDBDBD"));
+       // bars[5].setBackgroundColor(Color.parseColor("#BDBDBD"));
 
         inputFood = (TextView) findViewById(R.id.food_num);
         inputDrinks = (TextView) findViewById(R.id.drink_num);
