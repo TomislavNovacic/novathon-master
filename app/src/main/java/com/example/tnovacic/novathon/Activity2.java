@@ -61,11 +61,11 @@ public class Activity2 extends AppCompatActivity {
        // bars[5].setBackgroundColor(Color.parseColor("#BDBDBD"));
 
         inputFood = (TextView) findViewById(R.id.food_num);
-        inputDrinks = (TextView) findViewById(R.id.drink_num);
-        inputBills = (TextView) findViewById(R.id.bills_num);
-        input1Fuel = (TextView) findViewById(R.id.fuel_num);
-        inputOther = (TextView) findViewById(R.id.other_num);
-        inputRemaining = (TextView) findViewById(R.id.rem_num);
+        inputDrinks = (TextView) findViewById(R.id.textView3);
+        inputBills = (TextView) findViewById(R.id.textView5);
+        input1Fuel = (TextView) findViewById(R.id.textView7);
+        inputOther = (TextView) findViewById(R.id.textView8);
+        inputRemaining = (TextView) findViewById(R.id.textView12);
 
         float_but = (FloatingActionButton) findViewById(R.id.floatingActionButton);
 
