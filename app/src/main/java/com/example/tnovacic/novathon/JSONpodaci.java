@@ -1,13 +1,9 @@
 package com.example.tnovacic.novathon;
 
 
+
 import android.os.AsyncTask;
 
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -19,10 +15,6 @@ import java.util.ArrayList;
 
 public class JSONpodaci {
 
-    public boolean pakiranje(String user, String password){
-        salji1("email="+user+"&password="+password);
-        return true;
-    }
 
     static final String[][] elementi = {{"MINER MIVEL","PICE"},
             {"CIPS K PLUS","HRANA"},
@@ -107,47 +99,7 @@ public class JSONpodaci {
         }
     }
 
-    podaci pod;
-    char s[] = new char[250];
-    String fini = null;
-    String data;
-    boolean test = false;
 
-
-    public boolean salji1(String s){
-        this.data = s;
-        new slanje1().execute();
-        return true;
-    }
-
-    class podaci{
-        int id;
-        String ime, prezime, adresa;
-        int post;
-        String mail, phone, rodendan;
-        int income;
-    }
-
-    public void pasiranje(String s){
-        try {
-            JSONObject S = new JSONObject(s);
-            pod = new podaci();
-            pod.id = S.getInt("id");
-            pod.ime = S.getString("first_name");
-            pod.prezime = S.getString("last_name");
-            pod.adresa = S.getString("user_address");
-            pod.post = S.getInt("post_number");
-            pod.mail = S.getString("email");
-            pod.rodendan = S.getString("birthday");
-            pod.phone = S.getString("phone");
-            pod.income = S.getInt("income");
-            System.out.println("Uspjesno");
-            test = true;
-        } catch (JSONException e) {
-            e.printStackTrace();
-            System.out.println("Greska pri pasiranjz");
-        }
-    }
 
     static class slanje extends AsyncTask<Void, Void, Void>{
 
@@ -171,35 +123,5 @@ public class JSONpodaci {
         }
     }
 
-    class slanje1 extends AsyncTask<Void, Void, Void>{
 
-        @Override
-        protected Void doInBackground(Void... params) {
-            URL url = null;
-            try {
-                url = new URL("http://10.20.0.89/web-api/login");
-                HttpURLConnection httpCon = (HttpURLConnection) url.openConnection();
-                httpCon.setDoOutput(true);
-                httpCon.setRequestMethod("POST");
-                OutputStreamWriter out = new OutputStreamWriter(
-                        httpCon.getOutputStream());
-                out.write(data);
-                out.flush();
-                System.out.println(httpCon.getResponseCode());
-                System.out.println(httpCon.getResponseMessage());
-                out.close();
-                InputStreamReader in = new InputStreamReader(httpCon.getInputStream());
-                System.out.println(in.read(s,0, 250));
-                //System.out.println(s);
-                in.close();
-
-            }catch (Exception e){System.out.println("greska pri primanju");}
-            return null;
-        }
-        @Override
-        protected void onPostExecute(Void aVoid) {
-            super.onPostExecute(aVoid);
-            pasiranje(String.valueOf(s));
-        }
-    }
 }

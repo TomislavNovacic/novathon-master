@@ -31,7 +31,6 @@ public class Activity2 extends AppCompatActivity {
     private static final int REQ_CODE_OCR = 234;
 
     LinearLayout[] bars = new LinearLayout[5];
-    LinearLayout koliko;
     FloatingActionButton float_but;
     String proizvodsZarezom1;
     String proizvodsZarezom2;
@@ -80,12 +79,6 @@ public class Activity2 extends AppCompatActivity {
             }
         });
 
-    }
-
-    public void click(View v){
-        ViewGroup.LayoutParams params = bars[2].getLayoutParams();
-        params.width = (int) (0.75 * params.width);
-        bars[2].setLayoutParams(params);
     }
 
     public void startScanning(View view) {
